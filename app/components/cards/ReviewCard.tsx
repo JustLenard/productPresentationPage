@@ -1,8 +1,7 @@
-import Image from 'next/image'
 import FiveStars from '../FiveStars'
 
-import { Button, Rating, MTypography } from '../MaterialComponents'
 import { ReviewCardT } from '@/app/utils/types'
+import { MTypography } from '../MaterialComponents'
 
 const ReviewCard: React.FC<ReviewCardT> = ({ author, content, title }) => {
 	return (
